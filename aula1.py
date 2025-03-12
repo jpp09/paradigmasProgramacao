@@ -12,7 +12,7 @@ else:
 '''
 
 #Estrutura de repetição for
-n = 10
+n = int(input("Digita um número: "))
 for i in range(0,n+1):
     if i % 2 == 0:
         print(f"{i} é par")
