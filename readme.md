@@ -5,7 +5,7 @@
 ## Organização dos arquivos
 
 aula1.py ➡ Sintax da linguagem de programaçao em python / Condicionais / Laços de repetição <br>
-aula2.py ➡ <br>
+aula2.py ➡ Estruturas dos vetores<br>
 
 
 ## Exercicios
