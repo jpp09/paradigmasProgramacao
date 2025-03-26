@@ -8,4 +8,6 @@ tipos_dados= {
     "dict": {"nome":"João Pedro"}
     }
 
-print(tipos_dados.keys())
+
+
+print("Teste %d adjajdad",1)
