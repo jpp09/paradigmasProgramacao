@@ -8,6 +8,6 @@ tipos_dados= {
     "dict": {"nome":"João Pedro"}
     }
 
+print(tipos_dados)
 
-
-print("Teste %d adjajdad",1)
+int(input(f"Meu peso = {peso}"))

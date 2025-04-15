@@ -32,7 +32,7 @@ candidatos = {
     "Pedro": 0,
     "José": 0,
 }
-
+count = 0
 while True:
     print('-'*20)
     print("Eleição 2030")
@@ -46,7 +46,15 @@ while True:
     elif choice == 3:
         candidatos["José"] += 1
     else:
-        print("*"*20)
+        print("-"*20)
         print("Obrigado pela sua votação")
-        print("*"*20)
+        print("-"*20)
+        break
+    count += 1
+
+print("-"*20)
+print("Resultado das eleiçoes")
+print("-"*20)
+
+print(f"Maria - {(candidatos['Maria']/count)*100}% de votos {candidatos['Maria']}votos\nPedro - {(candidatos['Pedro']/count)*100}% de votos {candidatos['Pedro']} votos\nJosé - {(candidatos['José']/count)*100}% de votos {candidatos['José']} votos")
 
